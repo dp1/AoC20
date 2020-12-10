@@ -1,4 +1,4 @@
-with open('8.in', 'r') as fin:
+with open('in/8.in', 'r') as fin:
     code = [x.strip() for x in fin.readlines()]
 
 def simulate(code):

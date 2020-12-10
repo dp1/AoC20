@@ -1,4 +1,4 @@
-with open('9.in', 'r') as fin:
+with open('in/9.in', 'r') as fin:
     data = [int(x) for x in fin.readlines()]
 
 preamble, elems = data[:25], data[25:]

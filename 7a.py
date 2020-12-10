@@ -1,6 +1,6 @@
 import string
 
-with open('7.in', 'r') as fin:
+with open('in/7.in', 'r') as fin:
     lines = [x.strip() for x in fin.readlines()]
 
 graph = {}

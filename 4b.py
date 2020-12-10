@@ -1,6 +1,6 @@
 import string
 
-with open('4.in', 'r') as fin:
+with open('in/4.in', 'r') as fin:
     lines = fin.readlines()
 
 passports = []

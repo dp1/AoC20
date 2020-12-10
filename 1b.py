@@ -1,4 +1,4 @@
-with open('1.in', 'r') as fin:
+with open('in/1.in', 'r') as fin:
     nums = list(map(int, fin.readlines()))
 
 m = {}

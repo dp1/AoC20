@@ -1,4 +1,4 @@
-with open('3.in', 'r') as fin:
+with open('in/3.in', 'r') as fin:
     grid = [x.strip() for x in fin.readlines()]
 
 x, y, ctr = 0, 0, 0

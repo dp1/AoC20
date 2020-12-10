@@ -1,4 +1,4 @@
-with open('6.in', 'r') as fin:
+with open('in/6.in', 'r') as fin:
     groups = [x.split('\n') for x in fin.read().split('\n\n')]
 
 res = 0

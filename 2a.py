@@ -1,4 +1,4 @@
-with open('2.in', 'r') as fin:
+with open('in/2.in', 'r') as fin:
     lines = fin.readlines()
 
 ctr = 0
