@@ -2,7 +2,7 @@ with open('in/14.in') as fin:
     lines = [x.strip() for x in fin.readlines()]
 
 mem = {}
-mask1, mask0 = 0, 0
+mask1, maskX = 0, 0
 X = []
 
 for line in lines:
