@@ -1,25 +1,22 @@
 start = [19,0,5,1,10,13]
 
 # number -> turn
-prev = {}
-turn = 1
+prev = [-1] * 30000001
 
-for x in start:
-    prev[x] = turn
-    turn += 1
+for turn,x in enumerate(start):
+    prev[x] = turn + 1
 
 last = start[-1]
 
-while turn <= 30000000:
+for turn in range(len(start)+1, 30000001):
 
-    if last not in prev:
+    ctr = prev[last]
+    if ctr == -1:
         num = 0
     else:
-        num = turn - 1 - prev[last]
+        num = turn - 1 - ctr
     
     prev[last] = turn - 1
     last = num
-
-    turn += 1
 
 print(last)
